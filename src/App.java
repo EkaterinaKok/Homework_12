@@ -13,6 +13,9 @@ public class App {
         System.out.println("Название: " + bookTwo.getName() + ", год публикации " + bookTwo.getAge());
         System.out.println("Автор: " + bookTwo.getAuthor().getNameAuthor() + " " + bookTwo.getAuthor().getSurnameAuthor());
 
+        bookOne.setAge(1873);
+        System.out.println("\nОбновленный год публикации для книги 1: " + bookOne.getAge());
+
 
     }
 }
